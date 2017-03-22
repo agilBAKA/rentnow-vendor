@@ -1,0 +1,111 @@
+.btn {
+	border: none;
+	padding: 12px 20px;
+	border-radius: 100px;
+	display: inline-block;
+	margin-top: 15px;
+	height: 40px;
+	font-family: $font-base;
+	cursor:pointer;
+	background: transparent;
+	&.full {
+		width: 100%;
+		text-align: center;
+	}
+	&:focus {
+		outline: none;
+	}
+
+}
+
+.btn-primary {
+	@extend .btn;
+	background: $color-primary;
+	color: $color-soft;
+	&:hover {
+		background:darken($color-primary, 8%);
+		color: $color-soft;
+	}
+}
+
+.btn-black {
+	@extend .btn;
+	background: #333333;
+	color: $color-soft;
+	&:hover {
+		background:darken(#333333, 8%);
+	}
+}
+
+
+.btn-reg {
+	padding:20px 0px;
+	height: 80px;
+	font-weight: 500;
+	color: $color-soft;
+	cursor: pointer;
+	font-family: $font-base;
+	font-size: 21px;
+	position: relative;
+	i {
+		font-size: 28px;
+		position: absolute;
+		left: 67px;
+    	top: 28px;
+	}
+
+}
+.btn-facebook {
+	@extend .btn;
+	background: #163a66;
+	box-shadow: 0px 7px 0px 0px darken(#163a66, 5%);
+	&:hover {
+		background:darken(#163a66, 8%);
+		color: $color-soft;
+	}
+}
+
+.btn-mail {
+	@extend .btn;
+	background: #dd443c;
+	box-shadow: 0px 7px 0px 0px darken(#dd443c, 5%);
+	&:hover {
+		background:darken(#dd443c, 8%);
+		color: $color-soft;
+	}
+}
+
+.btn-primary-o {
+	@extend .btn;
+	border:1px solid $color-primary;
+	color: $color-primary;
+	&:hover {
+		background:$color-primary;
+		color: $color-soft;
+	}
+}
+
+.btn-white-o {
+	@extend .btn;
+	border:1px solid #fff;
+	color: #fff;
+	&:hover {
+		background:#ffffff;
+		color: $color-dark;
+	}
+}
+
+
+.btn-big {
+	padding: 14px 30px;
+	font-size: 21px;
+	width: 300px;
+	border-width: 2px;
+	height: auto;
+	font-weight: 600;
+}
+.btn-small {
+	padding: 5px 8px;
+	font-size: 11px;
+}
+

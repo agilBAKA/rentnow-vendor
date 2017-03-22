@@ -1,0 +1,294 @@
+.card-wide {
+	width: 100%;
+	height: 375px;
+	background: $color-soft;
+	margin-bottom: 50px;
+	.cover-card {
+		width: 750px;
+		height: 375px;
+		float: left;
+	}
+
+	.card-wide-content {
+		width: 300px;
+		float: left;
+		margin: 60px 0px 0px 150px;
+
+		a.title {
+			font-size: 28px;
+			margin-bottom: 60px;
+			display: block;
+		}
+	}
+
+	@include respond-to(handhelds) {
+		height: auto;
+		.cover-card {
+			width: 100%;
+			height: auto;
+			float: inherit;
+		}
+
+		.card-wide-content {
+			width: 100%;
+			float: inherit;
+			margin: 0px;
+			padding: 15px;
+			a.title {
+				margin-bottom: 20px;
+			}
+		}
+	}
+}
+
+
+.list-card {
+	width: 100%;
+	display: flex;
+ 	padding: 0px 10px;
+
+ 	&.view-all {
+ 		padding: 10px;
+ 	}
+	.box-card {
+		width: 25%;
+		padding: 0px 10px;
+		.content-card {
+			width: 100%;
+ 			height: 330px;
+			background: $color-dark;
+			margin: 0 auto;
+			position: relative;
+			a {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top:0;
+
+				img {
+					opacity:1;
+				}
+
+				img,
+				.info-card {
+					transition:all 0.3s;
+				}
+
+				.info-card {
+					position: absolute;
+					left: 0%;
+					width: 100%;
+					top: 50%;
+					color: #ffffff;
+					transform:translateY(-50%);
+					text-align: center;
+					opacity: 0;
+
+					h5 {
+						font-size: 23px;
+						font-weight: 600;
+						margin-bottom: 5px;
+					}
+
+					span {
+						font-size: 14px;
+						font-weight: 300;
+						display: block;
+						font-style: italic;
+					}
+
+					label {
+						border: 1px solid #ffffff;
+						display: inline-block;
+						padding:8px 15px;
+						font-size: 23px;
+						font-weight: 300;
+						margin-top: 30px;
+						sup {
+							font-size: 14px;
+							position: relative;
+							top:-10px;
+						}
+					}
+				}
+			}
+
+			&:hover {
+				img {
+					opacity: 0.5;
+				}
+				.info-card {
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+	@include respond-to(handhelds) {
+		display: block;
+		padding: 0px 15px;
+		.box-card {
+			padding: 0px;
+			width: 100%;
+			height: auto;
+			margin: 10px 0px;
+			.content-card {
+				height: auto;
+				img.img-cover {
+					height: auto;
+					object-fit:inherit;
+				}
+
+				a {
+					position: relative;
+					.info-card {
+						padding: 20px 0px;
+						position: relative;
+						top:0%;
+					    color: #ffffff;
+					    transform: translateY(0%);
+					    text-align: center;
+					    opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}
+
+.link-card {
+	text-align: center;
+	margin:60px 0px;
+	a {
+		width: auto;
+	}
+
+	@include respond-to(handhelds) {
+		padding: 15px;
+		margin: 0px 0px 15px 0px;
+		a {
+			font-size: 16px;
+			padding: 15px 0px;
+			width: 100%;
+		}
+	}
+}
+
+.search-card {
+	width: 100%;
+	margin-bottom: 60px;
+	a.search-card-cover {
+		width: 100%;
+ 		overflow: hidden;
+		display: block;
+		img  {
+			border-radius: 50px 50px 0px 0px;
+		}
+	}
+
+	.search-card-content {
+		margin-top: 20px;
+		position: relative;
+		padding-right: 100px;
+
+		a.title-card {
+			font-size: 19px;
+			font-weight: 600;
+			padding-bottom: 20px;
+			display: block;
+		}
+
+		label {
+			position: absolute;
+			font-size: 19px;
+			right: 25px;
+			top: 40px;
+			font-weight: 900;
+		}
+	}
+
+	@include respond-to(handhelds) {
+		a.search-card-cover {
+			img {
+				border-radius: 15px 15px 0px 0px;
+			}
+		}
+		.search-card-content {
+			a.title-card {
+				padding-right: 60px;
+			}
+			padding-right: 0px;
+			label {
+				top: 0px;
+				right: 15px;
+ 			}
+		}
+	}
+}
+
+.card-profile {
+	color: $color-secondary;
+	margin-bottom: 40px;
+	.card-profile-cover {
+		width: 100%;
+ 		margin-bottom: 20px;
+		img {
+			border-radius: 20px 20px 0px 0px;
+		}
+	}
+
+	a {
+		font-size: 18px;
+		color: $color-secondary
+	}
+
+	ul {
+		padding-top: 10px;
+		li {
+			float: left;
+ 			border-right: 1px solid $color-secondary;
+ 			font-weight: 600;
+ 			padding-right: 7px;
+ 			margin-right: 7px;
+ 			&:last-child {
+ 				border-right: 0px;
+ 				padding-right: 0;
+ 				margin-right: 0;
+ 			}
+
+ 			.rating {
+ 				.rated {
+ 					color: $color-primary;
+ 				}
+ 			}
+		}
+	}
+
+	@include respond-to(handhelds) {
+		ul {
+			margin-top: 20px;
+			padding: 0px;
+			border: 1px solid #dfdfdf;
+			overflow: hidden;
+			li {
+				width: 50%;
+				margin: 0px;
+				border-right: 1px solid #dfdfdf;
+				border-bottom: 1px solid #dfdfdf;
+				padding: 7px;
+				&:nth-of-type(2) {
+					border-right: 0px;
+				}
+				&:nth-of-type(3) {
+					border-bottom: 0px;
+				}
+				&:last-child {
+					border-bottom: 0px;
+				}
+
+
+			}
+		}
+	}
+}

@@ -1,0 +1,150 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: $font-base !important;
+	font-size: 14px;
+	background: #ffffff;
+	color: $color-secondary; 
+	font-weight: 400;
+	&.body-pages {
+		padding-top: 93px;
+	}
+
+	&.no-scroll {
+		overflow: hidden;
+	}
+
+	@include respond-to(handhelds) {
+		padding-top: 62px !important;
+		.section {
+			padding: 30px 0px;
+		}
+		.section-pages {
+			h1.title-page {
+				margin-bottom: 30px;
+				font-size: 32px; 
+			}
+ 		}
+	}
+}
+
+a.link-color {
+	color: $color-primary;
+	font-size: 11px;
+	text-decoration: underline;
+	font-weight: 500;
+}
+
+
+
+img {
+	max-width: 100%;
+}
+
+img.img-cover {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border: 0;
+	object-fit:cover;
+}
+
+a {
+	text-decoration: none;
+	transition: all 0.3s;
+	font-weight: 600;
+	color: $color-dark;
+	&:hover {
+		color: $color-primary;
+	}
+}
+
+.pagination {
+	display: block;
+	ul {
+		float: right;
+		li {
+			display: inline-block;
+			a {
+				color: $color-grey;
+				display: block;
+				margin-left: 20px;
+				font-weight: 400;
+				font-size: 16px;
+				&:hover {
+					color: $color-primary;
+				}
+ 				&.current {
+					color: $color-primary;
+				}
+
+				&.next {
+					font-weight: 600;
+					color: $color-primary;
+					border-width: 2px;
+					height: auto;
+					&:hover {
+						color: #ffffff;
+					}
+				}
+			}
+		}
+	}
+
+	@include respond-to(handhelds) {
+		ul {
+			float: inherit;
+			text-align: center;
+			li {
+				a {
+					margin: 0px 5px;
+				}
+			}
+		}
+	}
+}
+
+.clearfix {
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+}
+ 
+.section {
+	padding: 60px 0px;
+}
+
+.section-pages {
+	header {
+		h1.title-page {
+			font-size: 40px; 
+		}
+	}
+}
+
+.bg-grey {
+	background: $color-soft;
+}
+
+
+.blocked-info {
+	border-radius: 100px;
+	height: 40px;
+	padding: 13px 25px;
+	width: 100%;
+	outline: none;
+	border:0;
+	font-family: $font-base;
+	font-weight: 600;
+	background: #f5f5f5;
+	color: $color-dark;
+	margin-bottom: 20px;
+	span {
+		font-weight: 400;
+		padding-right: 7px; 
+	}
+	h4 {
+		font-size: 16px;
+		margin-top: 10px;
+	}
+}
