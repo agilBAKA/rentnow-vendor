@@ -1,0 +1,1 @@
+ <?php require 'modules/pages/information/index.php'; ?>

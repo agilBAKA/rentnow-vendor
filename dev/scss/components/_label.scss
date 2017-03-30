@@ -1,0 +1,25 @@
+.label {
+	width: auto;
+	display: inline-block;
+	font-size: 10px;
+	border-radius: 100px;
+	padding: 6px 15px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.label-waiting {
+	@extend .label;
+	background: $color-yellow;
+}
+
+.label-confrimed {
+	@extend .label;
+	background: $color-secondary;
+}
+
+.label-cancel {
+	@extend .label;
+	background: $color-error;
+}

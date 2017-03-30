@@ -1,13 +1,17 @@
 .btn {
 	border: none;
-	padding: 12px 20px;
-	border-radius: 100px;
+	padding: 0px 20px;
+	border-radius: 6px;
 	display: inline-block;
-	margin-top: 15px;
 	height: 40px;
+	line-height: 40px;
+	min-width: 150px;
+	text-align: center;
 	font-family: $font-base;
 	cursor:pointer;
 	background: transparent;
+	font-weight: 700;
+	transition:all 0.3s;
 	&.full {
 		width: 100%;
 		text-align: center;
@@ -21,19 +25,33 @@
 .btn-primary {
 	@extend .btn;
 	background: $color-primary;
-	color: $color-soft;
+	color: #ffffff;
+	box-shadow: 0px 2px 8px -1px #4dbeec;
 	&:hover {
 		background:darken($color-primary, 8%);
-		color: $color-soft;
+		color: #ffffff;
 	}
 }
 
-.btn-black {
+.btn-secondary {
 	@extend .btn;
-	background: #333333;
-	color: $color-soft;
+	background: $color-secondary;
+	box-shadow: 0px 2px 8px -1px #55ea4e;
+	color: #ffffff;
 	&:hover {
-		background:darken(#333333, 8%);
+		background:darken($color-secondary, 8%);
+		color: #ffffff;
+	}
+}
+
+
+.btn-grey {
+	@extend .btn;
+	background: #d4d6d6;
+	color: #6c6c6c;
+	&:hover {
+		background:darken(#d4d6d6, 8%);
+		color: #6c6c6c;
 	}
 }
 

@@ -11,26 +11,26 @@
 @import 'components/navigation';
 @import 'components/button';
 @import 'components/images';
-@import 'components/date';
+@import 'components/label';
+@import 'components/tooltip';
 
 // layouts 
-@import 'layout/header';
 @import 'layout/grid';
 @import 'layout/forms';
 @import 'layout/footer';
-@import 'layout/auth';
 @import 'layout/modal';
-@import 'layout/card';
 @import 'layout/tabs';
+@import 'layout/table';
+@import 'layout/boxed';
  
 // Pages 
 @import 'pages/index';
-@import 'pages/stories';
-@import 'pages/faq';
-@import 'pages/search';
-@import 'pages/rent';
-@import 'pages/profile';
-@import 'pages/lease';
+// @import 'pages/stories';
+// @import 'pages/faq';
+// @import 'pages/search';
+// @import 'pages/rent';
+// @import 'pages/profile';
+// @import 'pages/lease';
 
 // vendor 
-@import 'vendor/bstrp';
+@import 'vendor/sweetalert';

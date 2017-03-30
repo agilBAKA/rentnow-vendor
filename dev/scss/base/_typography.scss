@@ -3,58 +3,24 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1.title {
-	font-size: 3.429em;
-	color: $color-dark;
-	line-height: 2em;
-}
-
-
-h2.heading-light,
-h1.title-page{
-	font-size: 32px;
+	font-size: 30px;
 	color: $color-dark;
 	font-weight: 100;
 }
 
-h2.heading-light {
-	padding-bottom: 30px;
-}
-h2.heading {
-	font-size: 62px;
-	color: $color-grey;
-	font-weight: 900;
-	line-height: 1.7em;
-}
-
-
-h3.sub-heading {
+.font-big-light {
 	font-size: 36px;
-	color: $color-grey;
+	font-weight: 100;
 }
 
-h4 {
-	font-weight: 700;
- 	margin-bottom: 20px;
- 	font-size: 16px;
-
- 	&.list-heading {
- 		font-weight: 600;
- 	}
+.heading {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	display: inline-block;
 }
 
-h5 {
-	font-weight: 700;
-	line-height: 32px;
-	margin-bottom: 20px;
-}
-
-p { 
-	line-height: 28px;
-	padding-bottom: 20px;
-}
-
-
-
-label.status {
-	font-weight: 900;
+.small-font {
+	font-size: 11px;
+	font-weight: 600;
 }
