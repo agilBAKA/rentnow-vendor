@@ -365,3 +365,55 @@ div.avatar {
 
 	}
 }
+
+.search-block {
+	position: relative;
+	display: inline-block;
+	input {
+		border: 1px solid #ddd;
+		height: 40px;
+		width: 400px;
+		border-radius: 6px;
+		border: 1px solid #c2dafb;
+		background: transparent;
+		padding-left: 50px;
+		font-family: $font-base;
+		font-weight: 500;
+	}
+
+	i {
+		position: absolute;
+		left: 20px;
+		top: 10px;
+		font-size: 21px;
+	}
+}
+
+
+.box-filter {
+	margin-top: 15px;
+	max-height: 0px;
+	overflow: hidden;
+	transition: all 0.3s;
+	opacity: 0;
+	position: relative;
+
+	.close-filter {
+		position: absolute;
+		right: 15px;
+		top: 15px;
+		font-size: 11px;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+	&.show-filter {
+		max-height: 1000px;
+		opacity: 1;
+	}
+	form {
+		background: #ffffff;
+		border: 1px solid #ddd;
+		padding: 20px 20px 0px 20px;
+	}
+}

@@ -27,17 +27,17 @@
 
        		<!-- properties -->
 			<?php require 'modules/pages/homepage/properties.php'; ?>
-       		<!-- end Filter properties -->
+       		<!-- end  properties -->
 
        		<div class="clearfix"></div>
 
-       		<!-- Table revenue -->
+       		<!-- Graph revenue -->
 			<?php require 'modules/pages/homepage/graph-revenue.php'; ?>
-       		<!-- end Table revenue -->
+       		<!-- end Graph revenue -->
 
        		<!-- latest transaction -->
 			<?php require 'modules/pages/homepage/latest-transaction.php'; ?>
-       		<!-- end Filter latest transaction -->
+       		<!-- end latest transaction -->
 
 			<div class="clearfix"></div>
 

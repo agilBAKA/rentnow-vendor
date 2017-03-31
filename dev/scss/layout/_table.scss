@@ -3,13 +3,7 @@
 	table {
 		width: 100%;
 
-		th, td {
-			&.column-action {
-				width: 160px;
-				text-align: center;
-			}
-		}
-		tr {
+ 		tr {
 
 			&:last-child {
 				td {
@@ -54,16 +48,13 @@
 	table {
 		width: 100%;
 
-		th, td {
-			&.column-action {
-				width: 160px;
-				text-align: center;
-			}
-		}
 		tr {
 			&.row-head {
 				background: transparent;
 				box-shadow: none;
+				th {
+					padding-bottom: 15px;
+				}
 			}
 			width: 100%;
 			display:table-row;
@@ -115,11 +106,6 @@
 			margin-top: 5px;
 			display: block;
 		}
-
-		label {
-			position: relative;
-			top: 4px;
-		}
 	}
 }
 
@@ -144,5 +130,15 @@
 				}
 			}
 		}
+	}
+}
+
+
+.column-action {
+	width: 160px;
+	text-align: center;
+	&.__2-icon {
+		width: 120px; 
+		text-align: center;
 	}
 }

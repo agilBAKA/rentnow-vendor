@@ -63,33 +63,32 @@ a {
 }
 
 .pagination {
-	display: block;
+	display: inline-block;
 	ul {
-		float: right;
+		float: left;
 		li {
 			display: inline-block;
-			a {
+			&.active {
+				span {
+					background: $color-primary;
+					color: #ffffff;
+				}
+			}
+			a,
+			span {
 				color: $color-grey;
 				display: block;
-				margin-left: 20px;
+				margin-right: 5px;
 				font-weight: 400;
-				font-size: 16px;
-				&:hover {
-					color: $color-primary;
-				}
- 				&.current {
-					color: $color-primary;
-				}
-
-				&.next {
-					font-weight: 600;
-					color: $color-primary;
-					border-width: 2px;
-					height: auto;
-					&:hover {
-						color: #ffffff;
-					}
-				}
+				font-size: 13px;
+				background: #ffffff;
+				padding: 8px 12px;
+				border-radius: 4px;
+				border: 1px solid #ddd;
+			}
+			a:hover {
+				background: $color-primary;
+				color: #ffffff;
 			}
 		}
 	}
@@ -131,4 +130,8 @@ header.header-page {
 	a {
 		float: right;
 	}
+}
+
+.on-right {
+	float: right;
 }

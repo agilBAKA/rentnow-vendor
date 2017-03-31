@@ -55,6 +55,15 @@
 	}
 }
 
+.btn-white {
+	@extend .btn;
+	background: #ffffff;
+	color: $color-dark;
+	border: 1px solid #ddd;
+	&:hover {
+	}
+}
+
 
 .btn-reg {
 	padding:20px 0px;

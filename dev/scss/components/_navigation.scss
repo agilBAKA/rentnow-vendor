@@ -69,7 +69,7 @@ nav.navigation {
 					}
 				}
 
-				ul.submenu {
+				/* ul.submenu {
 					float: inherit;
 					position: absolute;
 					top: 100%;
@@ -93,7 +93,7 @@ nav.navigation {
 						border-color: transparent transparent #fff transparent;
 						margin-left: -10px;
 					}
-	 				li {
+					 				li {
 						float: initial;
 						display: block;
 						a {
@@ -103,13 +103,13 @@ nav.navigation {
 							&:hover {
 								color: $color-primary;
 							}
-
+				
 							i {
 								display: none;
 							}
 						}
 					}
-				}
+				} */
 
 			}
 		}
@@ -183,6 +183,12 @@ nav.navigation {
 			max-height: 0px;
 			opacity:0;
 			overflow: hidden;
+			
+			&.on-show {
+				transition:all 0.3s;
+				max-height: 500px;
+				opacity: 1;
+			}
 
 			.inner-menu-account{
 				border-radius:5px;
@@ -192,12 +198,6 @@ nav.navigation {
 			}
 
 
-			&.on-show {
-				transition:all 0.3s;
-				max-height: 500px;
-				overflow:inherit;
-				opacity: 1;
-			}
 
 			.menu-account-info {
 				border-bottom: 1px solid #ddd;
