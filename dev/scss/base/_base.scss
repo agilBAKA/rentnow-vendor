@@ -132,6 +132,32 @@ header.header-page {
 	}
 }
 
+// floating
+
+.on-left {
+	float: left;
+}
+
 .on-right {
 	float: right;
 }
+
+// color
+
+.c-primary {
+	color: $color-primary;
+}
+
+.c-green {
+	color: $color-secondary;
+}
+
+.c-red {
+	color: $color-error;
+}
+
+.c-yellow {
+	color: $color-yellow;
+}
+
+

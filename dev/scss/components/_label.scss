@@ -9,17 +9,27 @@
 	color: #ffffff;
 }
 
-.label-waiting {
+.label-yellow {
 	@extend .label;
 	background: $color-yellow;
 }
 
-.label-confrimed {
+.label-green {
 	@extend .label;
 	background: $color-secondary;
 }
 
-.label-cancel {
+.label-red {
 	@extend .label;
 	background: $color-error;
+}
+
+.label-black {
+	@extend .label;
+	background: $color-dark;
+}
+
+.label-blue {
+	@extend .label;
+	background: $color-primary;
 }

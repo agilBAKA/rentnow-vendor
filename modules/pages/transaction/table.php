@@ -8,7 +8,7 @@
 			<th>Periode sewa</th>
 			<th>Harga</th>
 			<th>Total</th>
-			<th>Status</th>
+			<th class="column-status">Status</th>
 			<th class="column-action __2-icon">Tindakan</th>
 		</tr>
 		<tr>
@@ -25,10 +25,10 @@
 				<strong>2 April - 5 April</strong>
 				<span class="small-font">3 hari</span>
 			</td>
-			<td><strong>600.000</strong></td>
-			<td><strong>1.800.000</strong></td>
+			<td><strong>IDR 600.000</strong></td>
+			<td><strong>IDR 1.800.000</strong></td>
 			<td>
-				<label class="label-waiting">Menunggu</strong>
+				<label class="label-yellow">Menunggu</label>
 			</td>
 			<td class="column-action __2-icon">
 				<div class="box-action">
@@ -58,10 +58,10 @@
 				<strong>2 April - 5 April</strong>
 				<span class="small-font">3 hari</span>
 			</td>
-			<td><strong>600.000</strong></td>
-			<td><strong>1.800.000</strong></td>
+			<td><strong>IDR 600.000</strong></td>
+			<td><strong>IDR 1.800.000</strong></td>
 			<td>
-				<label class="label-confrimed">Dikonfirmasi</strong>
+				<label class="label-green">Dikonfirmasi</label>
 			</td>
 			<td class="column-action __2-icon">
 				<div class="box-action">
@@ -91,10 +91,10 @@
 				<strong>2 April - 5 April</strong>
 				<span class="small-font">3 hari</span>
 			</td>
-			<td><strong>600.000</strong></td>
-			<td><strong>1.800.000</strong></td>
+			<td><strong>IDR 600.000</strong></td>
+			<td><strong>IDR 1.800.000</strong></td>
 			<td>
-				<label class="label-waiting">Menunggu</strong>
+				<label class="label-yellow">Menunggu</label>
 			</td>
 			<td class="column-action __2-icon">
 				<div class="box-action">
@@ -124,10 +124,10 @@
 				<strong>2 April - 5 April</strong>
 				<span class="small-font">3 hari</span>
 			</td>
-			<td><strong>600.000</strong></td>
-			<td><strong>1.800.000</strong></td>
+			<td><strong>IDR 600.000</strong></td>
+			<td><strong>IDR 1.800.000</strong></td>
 			<td>
-				<label class="label-cancel">ditolak</strong>
+				<label class="label-red">ditolak</label>
 			</td>
 			<td class="column-action __2-icon">
 				<div class="box-action">
@@ -157,10 +157,10 @@
 				<strong>2 April - 5 April</strong>
 				<span class="small-font">3 hari</span>
 			</td>
-			<td><strong>600.000</strong></td>
-			<td><strong>1.800.000</strong></td>
+			<td><strong>IDR 600.000</strong></td>
+			<td><strong>IDR 1.800.000</strong></td>
 			<td>
-				<label class="label-waiting">Menunggu</strong>
+				<label class="label-yellow">Menunggu</label>
 			</td>
 			<td class="column-action __2-icon">
 				<div class="box-action">
@@ -190,10 +190,10 @@
 				<strong>2 April - 5 April</strong>
 				<span class="small-font">3 hari</span>
 			</td>
-			<td><strong>600.000</strong></td>
-			<td><strong>1.800.000</strong></td>
+			<td><strong>IDR 600.000</strong></td>
+			<td><strong>IDR 1.800.000</strong></td>
 			<td>
-				<label class="label-confrimed">Dikonfirmasi</strong>
+				<label class="label-green">Dikonfirmasi</label>
 			</td>
 			<td class="column-action __2-icon">
 				<div class="box-action">

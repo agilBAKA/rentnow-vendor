@@ -18,7 +18,7 @@
 						<span class="small-font">3 hari</span>
 					</td>
 					<td>
-						<label class="label-waiting">Menunggu</strong>
+						<label class="label-yellow">Menunggu</strong>
 					</td>
 				</tr>
 				<tr class="spaceter"><td colspan="4"></td></tr>
@@ -36,7 +36,7 @@
 						<span class="small-font">14 jam</span>
 					</td>
 					<td>
-						<label class="label-waiting">Menunggu</strong>
+						<label class="label-yellow">Menunggu</strong>
 					</td>
 				</tr>
 				<tr class="spaceter"><td colspan="4"></td></tr>
@@ -54,7 +54,7 @@
 						<span class="small-font">3 hari</span>
 					</td>
 					<td>
-						<label class="label-confrimed">dikonfirmasi</strong>
+						<label class="label-green">dikonfirmasi</strong>
 					</td>
 				</tr>
 				<tr class="spaceter"><td colspan="4"></td></tr>
@@ -72,7 +72,7 @@
 						<span class="small-font">14 jam</span>
 					</td>
 					<td>
-						<label class="label-cancel">kedaluwarsa</strong>
+						<label class="label-red">kedaluwarsa</strong>
 					</td>
 				</tr>
 				<tr class="spaceter"><td colspan="4"></td></tr>
@@ -90,7 +90,7 @@
 						<span class="small-font">2 hari</span>
 					</td>
 					<td>
-						<label class="label-waiting">Menunggu</strong>
+						<label class="label-yellow">Menunggu</strong>
 					</td>
 				</tr>
 			</table>

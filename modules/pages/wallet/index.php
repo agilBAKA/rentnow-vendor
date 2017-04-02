@@ -7,7 +7,7 @@
    <?php require 'modules/components/nav.php'; ?>
 
 <!-- MAIN CONTENT -->
-<section class="main main-transaction">
+<section class="main main-wallet">
    <div class="container">
        <div class="row">
 
@@ -56,14 +56,14 @@
             
             <!-- sidebar wallet -->
             <div class="col-md-3">
-                sidebar
+                <?php require 'modules/pages/wallet/sidebar-wallet.php'; ?>
             </div>
             <!-- end sidebar wallet -->
 
             <div class="clearfix"></div>
 
             <!-- table transaction -->
-            <?php require 'modules/pages/transaction/table.php'; ?>
+            
             <!-- end Table transaction -->
 
        </div>
