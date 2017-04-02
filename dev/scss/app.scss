@@ -5,8 +5,6 @@
 @import 'base/reset';
 @import 'base/base';
 @import 'base/typography';
-
-
 // Components 
 @import 'components/navigation';
 @import 'components/button';
@@ -28,7 +26,7 @@
 @import 'pages/transaction';
 @import 'pages/properties';
 @import 'pages/wallet';
-// @import 'pages/search';
+@import 'pages/info';
 // @import 'pages/rent';
 // @import 'pages/profile';
 // @import 'pages/lease';

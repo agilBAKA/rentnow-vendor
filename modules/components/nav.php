@@ -22,10 +22,10 @@
             </ul>
         </div>
         <div class="box-account">
-            <a href="notification.php" class="notif-global">
+            <!-- <a href="notification.php" class="notif-global">
                 <i class="zmdi zmdi-notifications"></i>
                 <span>5</span>
-            </a>
+            </a> -->
             <div class="account">
                 <figure class="avatar">
                     <img src="dist/images/avatar.jpg" alt="" class="img-cover">
