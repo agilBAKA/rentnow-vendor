@@ -13,7 +13,7 @@
 <div class="boxed boxed-bank">
 	<div class="boxed-header boxed-header_bordered">
 		<h2 class="heading">Bank &amp; Kartu</h2>
-		<a href="" class="link"><i class="zmdi zmdi-settings"></i> atur</a>
+		<a href="information.php" class="link"><i class="zmdi zmdi-settings"></i> atur</a>
 	</div>
 	<div class="boxed-body">
 		<ul class="list-bank">

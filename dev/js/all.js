@@ -11,6 +11,7 @@ function modify_qty(val){
 	return new_qty;
 }
 
+
 // jQuery
 
 $(document).ready(function () {
@@ -32,7 +33,27 @@ $(document).ready(function () {
 	    $('.submenu').toggleClass('open-submenu');
 	});
 
-	 // tabbed content
+
+// Modal 
+
+function openModalVendor(btnForModal,idModal){
+	$(btnForModal).on('click', function(){
+ 		$(idModal).addClass('modal-show');
+		$('body').addClass('no-scroll');
+	})
+}
+
+openModalVendor('#open-modal-bank', '#modal-bank');
+openModalVendor('.edit-bank', '#edit-modal-bank');
+openModalVendor('#open-modal-cc', '#modal-cc');
+
+$('.close-modal').on('click', function(){
+	$('.box-modal').removeClass('modal-show');
+	$('body').removeClass('no-scroll');
+})
+
+
+// tabbed content
 // http://www.entheosweb.com/tutorials/css/tabs.asp
 $(".tab_content").hide();
 $(".tab_content:first").show();

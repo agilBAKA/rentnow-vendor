@@ -33,3 +33,8 @@
 	@extend .label;
 	background: $color-primary;
 }
+
+.label-grey {
+	@extend .label;
+	background: grey;
+}

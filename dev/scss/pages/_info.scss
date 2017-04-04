@@ -3,7 +3,18 @@
 	// vendor
 	form.default-form {
 		border-top: 0px;
-		padding: 0px;
 		overflow: hidden;
+	}
+
+	.list-table {
+		padding-top: 30px;
+		clear: both;
+	}
+
+}
+
+#modal-cc {
+	.style-check {
+		padding-top: 47px;
 	}
 }
