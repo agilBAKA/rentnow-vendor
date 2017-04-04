@@ -8,7 +8,7 @@
         <button class="btn-white btn-for-filter">
             <i class="zmdi zmdi-filter-list"></i> Filter
         </button>
-        <a href="" class="btn-primary">
+        <a href="add-vehicle.php" class="btn-primary">
         	Tambah kendaraan
         </a>
     </div>

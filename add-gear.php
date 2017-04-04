@@ -1,0 +1,1 @@
+ <?php require 'modules/pages/properties/add/gear.php'; ?>
