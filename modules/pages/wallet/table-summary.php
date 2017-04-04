@@ -3,7 +3,7 @@
 	<tr class="row-head">
 		<th class="date">Tanggal</th>
 		<th>Informasi</th>
-		<th class="text-center">Status</th>
+		<th>Status</th>
 		<th class="text-right">Total</th>
 	</tr>
 	<tr>

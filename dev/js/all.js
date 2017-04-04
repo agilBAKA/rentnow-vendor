@@ -47,6 +47,9 @@ openModalVendor('#open-modal-bank', '#modal-bank');
 openModalVendor('.edit-bank', '#edit-modal-bank');
 openModalVendor('#open-modal-cc', '#modal-cc');
 
+openModalVendor('#add_topup', '#modal-topup');
+openModalVendor('#add_withdraw', '#modal-withdraw');
+
 $('.close-modal').on('click', function(){
 	$('.box-modal').removeClass('modal-show');
 	$('body').removeClass('no-scroll');

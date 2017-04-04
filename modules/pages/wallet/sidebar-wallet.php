@@ -5,8 +5,8 @@
 		<span>Updated 02 April 2017 18:45 </span>
 	</div>
 	<div class="boxed-footer boxed-footer_bordered link-action">
-		<a href="">Withdraw</a>
-		<a href="">Top up</a>
+		<a id="add_withdraw">Withdraw</a>
+		<a id="add_topup">Top up</a>
 	</div>
 </div>
 

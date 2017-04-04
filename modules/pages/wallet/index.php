@@ -72,9 +72,19 @@
 </section>
 <!--  END MAIN CONTENT -->
 
-   <?php require 'modules/components/footer.php'; ?>
-   
-   <?php require 'all-javascript.php'; ?>
+
+<!-- Modal Top up -->
+<?php require 'modules/pages/wallet/modal-topup.php'; ?>
+<!-- end Modal Top up -->
+
+<!-- Modal withdraw -->
+<?php require 'modules/pages/wallet/modal-withdraw.php'; ?>
+<!-- end Modal withdraw -->
+
+
+<?php require 'modules/components/footer.php'; ?>
+
+<?php require 'all-javascript.php'; ?>
  
 </body>
 </html>
