@@ -53,11 +53,8 @@ form.default-form {
 	}
  
 	textarea {
-		height: 200px;
-		border-radius: 20px;
+		min-height: 100px;
 		resize:none;
-		padding-top: 20px;
-
 		&.autoheight {
 			height: auto;
 		}
@@ -429,4 +426,32 @@ form.default-form {
 
 .inline-field {
 	display: inline-block;
+}
+
+
+.field-money {
+	position: relative;
+	select.select-money {
+	    position: absolute;
+	    width: 100px;
+	    left: 0px;
+	    top: 34px;
+		border-radius: 6px 0px 0px 6px;
+		font-size: 21px;
+		padding: 0px;
+		padding-left: 15px;
+	}
+
+	input {
+		font-size: 21px;
+		text-align: right;
+	}
+
+	a.link {
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		font-size: 11px;
+
+	}
 }
