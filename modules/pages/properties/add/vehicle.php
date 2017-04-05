@@ -25,6 +25,15 @@
             </div> 
         </div>
    </section>
+
+    <!-- Modal tarif -->
+    <?php require 'modules/pages/properties/modal-tarif.php'; ?>
+    <!-- end Modal tarif -->
+
+
+    <?php require 'modules/components/footer.php'; ?>
+
+
    <?php require 'all-javascript.php'; ?>
    <script type="text/javascript" src="dist/js/vendor/jquery.fileuploader.min.js"></script>
    <script type="text/javascript">

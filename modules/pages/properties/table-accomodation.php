@@ -8,7 +8,7 @@
         <button class="btn-white btn-for-filter">
             <i class="zmdi zmdi-filter-list"></i> Filter
         </button>
-        <a href="add-accomodation.php" class="btn-primary">
+        <a href="add-accommodation.php" class="btn-primary">
         	Tambah Akomodasi
         </a>
     </div>

@@ -1,5 +1,5 @@
 // Native
-
+	
 function modify_qty(val){
 	var qty = document.getElementById('qty').value;
 	var new_qty = parseInt(qty,10) + val;
@@ -10,7 +10,6 @@ function modify_qty(val){
 	document.getElementById('qty').value = new_qty;
 	return new_qty;
 }
-
 
 // jQuery
 
@@ -49,6 +48,10 @@ openModalVendor('#open-modal-cc', '#modal-cc');
 
 openModalVendor('#add_topup', '#modal-topup');
 openModalVendor('#add_withdraw', '#modal-withdraw');
+
+openModalVendor('.edit-tarif', '#modal-tarif');
+
+
 
 $('.close-modal').on('click', function(){
 	$('.box-modal').removeClass('modal-show');
