@@ -88,11 +88,31 @@
 
     <div class="row">
     	<div class="col-md-3">
-    		<div class="field">
-    			<label>Nomor Polisi</label>
-    			<input type="text" placeholder="Tulis nomor polisi ">
+            <div class="field">
+                <label>Nomor Polisi</label>
+                <input type="text" placeholder="Tulis nomor polisi ">
+            </div>
+        </div>
+        <div class="col-md-9">
+    		<div class="field field_stnk">
+    			<label>Unggah foto STNK</label>
+    			<input type="file" name="files_stnk">
     		</div>
     	</div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box-upload-gallery">
+                <h3>Unduh Galeri</h3>
+                <p class="info">
+                    Foto produk yang diunggah harus berformat JPG atau PNG dengan resolusi maksimum 1600px x 500px dan ukuran kurang dari 100KB per foto. Foto yang diunggah diharuskan foto nyata dari kendaraan Anda yang sekurangnya menggambarkan tampak depan, kanan, kiri, belakang dan dalam kendaraan Anda.
+                </p>
+                <input type="file" name="files_product">
+            </div>
+        </div>
     </div>
 
 	<div class="action-form">
