@@ -1,0 +1,274 @@
+body.body-message {
+	overflow: hidden;
+	height: 100vh;
+}
+
+.container-message {
+	width: 100%;
+	border: 1px solid #ddd;
+	overflow: hidden;
+	position: relative;
+	padding-left: 300px;
+	.sidebar-message {
+		width: 300px;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border-right: 1px solid #ddd;
+
+		.box-search {
+			padding: 9px 15px;
+			height: 60px;
+			border-bottom: 1px solid #ddd;
+			input {
+				width: 100%;
+				background: #f3f3f3;
+				padding: 10px;
+				border-radius: 4px;
+				border: 1px solid #ddd;
+				font-family: $font-base;
+				&:focus {
+					outline: none;
+				}
+			}
+		}
+
+		.sidebar-message-body {
+			overflow: auto;
+			background: #f4f4f4;
+			ul.box-messager {
+				li.list-messager {
+					position: relative;
+					padding: 15px 10px;
+					transition:all 0.3s;
+					&:hover {
+						background: #ffffff;
+					}
+					figure.avatar {
+						float: left;
+					}
+
+					.label-messager {
+						padding-top: 5px;
+						padding-left: 60px;
+						label {
+							font-size: 16px;
+							display: block;
+							font-weight: 400;
+							padding-bottom: 5px;
+							cursor: pointer;
+						}
+						p {
+							font-weight: 400;
+							font-size: 13px;
+							opacity: 0.8;
+						}
+					}
+
+					&.active {
+						background: $color-primary;
+						color: #ffffff;
+						.label-messager {
+							label,p {
+								color: #ffffff;
+							}
+						}
+						span.info-time {
+							color: #ffffff;
+						}
+					}
+
+					&.un-read {
+						.label-messager {
+							label,p {
+								font-weight: 600;
+							}
+						}
+						span.info-time {
+							color: $color-primary;
+							i {
+								display: inline-block;
+								width: 8px;
+								height: 8px;
+								border-radius: 100%;
+								background: $color-error;
+							}
+						}
+					}
+
+					.info-time {
+						font-size: 11px;
+						position: absolute;
+						top: 20px;
+						right: 5px;
+						text-align: right;
+					}
+
+				}
+			}
+		}
+	}
+
+	.content-message {
+		.header-message {
+			height: 60px;
+			border-bottom: 1px solid #ddd;
+			padding: 8px 15px;
+			.avatar {
+				float: left;
+			}
+			h3 {
+				float: left;
+				font-size: 18px;
+				padding-left: 15px;
+				position: relative;
+				top: 12px;
+			}
+		}
+
+		.box-message {
+			background: #f4f4f4;
+			overflow: auto;
+			padding-bottom: 20px;
+			ul {
+				li.list-conversation {
+					overflow: hidden;
+					width: 100%;
+					clear: both;
+					padding: 10px 0px 0px 0px;
+					.p-message {
+						max-width: 80%;
+						float: right;
+						padding: 0px 10px;
+						position: relative;
+						span.time {
+							font-size: 11px;
+						    position: absolute;
+						    bottom: 3px;
+						    right: 100%;
+						    font-weight: 900;
+						    display: block;
+						    width: auto;
+						    min-width: 50px;
+						    opacity: 0.6;
+						}
+						p {
+							background: $color-primary;
+							color: #ffffff;
+							line-height: 21px;
+							padding:10px;
+							border-radius: 4px;
+							font-size: 13px;
+						}
+					}
+
+					&.message-sender {
+						.p-message {
+							float: left;
+
+							span.time {
+								left: 100%
+							}
+
+							p {
+								background: #ffffff;
+								color: #000000;
+							}
+						}
+					}
+				}
+			}
+		}
+		.action-message {
+			width: 100%;
+			border-top: 1px solid #ddd;
+			height: 50px;
+			position: relative;
+			background: #f8f8f8;
+			form {
+				padding-right: 50px;
+				textarea {
+					width: 100%;
+					border: none;
+					padding:10px;
+					max-height: 80px;
+					background: transparent;
+					font-family: $font-base;
+					resize:none;
+					&:focus {
+						outline: none;
+					}
+				}
+			}
+
+			button {
+				width: 50px;
+				height: 100%;
+				position: absolute;
+				right: 0px;
+				bottom: 0px;
+				border:none;
+				border-left: 1px solid #ddd;
+				background: transparent;
+				cursor: pointer;
+				text-align: center;
+				font-size: 21px;
+				color: $color-primary;
+				
+			}
+
+		}
+	}
+
+
+}
+
+.box-renter {
+	h3 {
+		font-size: 24px;
+		font-weight:100;
+		padding-bottom: 20px;
+	}
+	p.info {
+		font-size: 13px;
+		font-style: italic;
+	}
+	ul {
+		padding-top: 20px;
+		li.list-renter {
+			position: relative;
+			padding: 10px;
+			transition:all 0.3s;
+			background: #ffffff;
+			border-radius: 4px;
+			margin: 8px 0px;
+			border: 1px solid #eaeaea;
+			display: block;
+			overflow: hidden;
+			&:hover {
+				background: #ffffff;
+			}
+			figure.avatar {
+				float: left;
+			}
+
+			.label-renter {
+				padding-top: 5px;
+				padding-left: 60px;
+				label {
+					font-size: 16px;
+					display: block;
+					font-weight: 400;
+					padding-bottom: 5px;
+					cursor: pointer;
+				}
+				p {
+					font-weight: 400;
+					font-size: 13px;
+					opacity: 0.8;
+				}
+			}
+		}
+	}
+}

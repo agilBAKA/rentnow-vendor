@@ -161,7 +161,13 @@ header.header-page {
 	color: $color-yellow;
 }
 
+.avatar {
+	width: 45px;
+	height: 45px;
+	border-radius: 100%;
+	overflow: hidden;
 
+}
 
 
 hr {
