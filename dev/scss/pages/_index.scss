@@ -7,6 +7,34 @@
 	color: #fff;
 	padding: 20px;
 	margin-bottom: 30px;
+
+	form {
+		select {
+			background: transparent;
+			border: 1px solid #ffffff;
+			padding: 5px 10px;
+			width: 100%;
+			margin-top: 15px;
+			color: #ffffff;
+			border-radius: 4px;
+			font-family: $font-base;
+			option {
+				color: $color-primary;
+			}
+		}
+	}
+
+	.info-revenue {
+		text-align: right;
+		padding-top: 5px;
+		h3 {
+			padding: 20px 0px;
+			sub {
+				font-size: 70%;
+				display: inline-block;
+			}
+		}
+	}
 }
 
 // boxed-property 
@@ -61,9 +89,23 @@
 	}
 }
 
+.box-graph {
+	width: 100%;
+	form.default-form {
+		border: none;
+		padding-top: 0px;
+
+	}
+
+	.content-graph {
+		width: 100%;
+	}
+}
+
 // latest transaction
 
 .latest-transaction {
+	padding-top: 30px;
 	a.link {
 		float: right;
 	}

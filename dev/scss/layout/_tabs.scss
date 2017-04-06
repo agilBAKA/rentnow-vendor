@@ -1,5 +1,5 @@
 .box-tabs {
-	overflow: hidden;
+	// overflow: hidden;
 
 }
 
@@ -51,12 +51,13 @@ ul.tabs li {
 	clear: both;
 	float: left;
 	width: 100%;
-	overflow: auto;
+	// overflow: auto;
 }
 
 .tab_content {
+	width: 100%;
 	padding: 30px 0px;
-	display: none;
+	// display: none;
 }
 
 .tab_drawer_heading { display: none; }
