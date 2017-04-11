@@ -6,7 +6,8 @@
     </div>
     <div class="header-table_action">
         <button class="btn-white btn-for-filter">
-            <i class="zmdi zmdi-filter-list"></i> Filter
+            <i class="zmdi zmdi-filter-list"></i>
+            <span>Filter</span>
         </button>
     </div>
     <div class="clearfix"></div>
@@ -17,6 +18,16 @@
         </span>
         <form action="" class="default-form">
             <div class="row">
+           		<div class="col-md-3">
+                    <div class="field">
+                        <label>Status</label>
+                        <select>
+                            <option value="">Tampilkan Semua</option>
+                            <option value="">Berhasil</option>
+                            <option value="">Gagal</option>
+                        </select>
+                    </div>
+                </div>
                 <div class="col-md-3">
                     <div class="field">
                         <label>Waktu</label>
@@ -138,24 +149,26 @@
 	</table>
 </div>
 
-<div class="pagination">
-	<ul>
-		<li class="active">
-			<span>1</span>
-		</li>
-		<li>
-			<a href="">2</a>
-		</li>
-		<li>
-			<a href="">3</a>
-		</li>
-		<li>
-			<a href="">4</a>
-		</li>
-		<li>
-			<a href="">5</a>
-		</li>
-	</ul>
-</div>
+<div class="footer-table">
+	<div class="pagination">
+		<ul>
+			<li class="active">
+				<span>1</span>
+			</li>
+			<li>
+				<a href="">2</a>
+			</li>
+			<li>
+				<a href="">3</a>
+			</li>
+			<li>
+				<a href="">4</a>
+			</li>
+			<li>
+				<a href="">5</a>
+			</li>
+		</ul>
+	</div>
 
-<span class="on-right">Menampilkan 6 dari 200 data aktivitas</span>
+	<span class="on-right">Menampilkan 6 dari 200 data aktivitas</span>
+</div>

@@ -6,7 +6,8 @@
     </div>
     <div class="header-table_action">
         <button class="btn-white btn-for-filter">
-            <i class="zmdi zmdi-filter-list"></i> Filter
+            <i class="zmdi zmdi-filter-list"></i>
+            <span>Filter</span>
         </button>
     </div>
     <div class="clearfix"></div>
@@ -128,24 +129,26 @@
 	</table>
 </div>
 
-<div class="pagination">
-	<ul>
-		<li class="active">
-			<span>1</span>
-		</li>
-		<li>
-			<a href="">2</a>
-		</li>
-		<li>
-			<a href="">3</a>
-		</li>
-		<li>
-			<a href="">4</a>
-		</li>
-		<li>
-			<a href="">5</a>
-		</li>
-	</ul>
-</div>
+<div class="footer-table">
+	<div class="pagination">
+		<ul>
+			<li class="active">
+				<span>1</span>
+			</li>
+			<li>
+				<a href="">2</a>
+			</li>
+			<li>
+				<a href="">3</a>
+			</li>
+			<li>
+				<a href="">4</a>
+			</li>
+			<li>
+				<a href="">5</a>
+			</li>
+		</ul>
+	</div>
 
-<span class="on-right">Menampilkan 6 dari 200 data Top Up</span>
+	<span class="on-right">Menampilkan 6 dari 200 data Top Up</span>
+</div>

@@ -42,8 +42,12 @@ body {
 			padding: 30px 0px;
  		}
 
+ 		.list-table,
  		.box-table {
  			overflow: auto;
+ 			table {
+ 				min-width: 700px;
+ 			}
  		}
 
 	}

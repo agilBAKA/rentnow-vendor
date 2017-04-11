@@ -63,4 +63,24 @@
 			}
 		}
 	}
+
+	.header-table {
+		.search-block {
+			width: 80%;
+			float: left;
+		}
+		.header-table_action {
+			float: right;
+			width: 20%;
+			button {
+				float: right;
+			}
+		}
+	}
+
+	@include respond-to(handhelds) {
+		.balance-wallet {
+			margin-top: 20px;
+		}
+	}
 }

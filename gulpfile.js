@@ -89,7 +89,7 @@ gulp.task('watch', function(){
         // server: {
         //     baseDir: './'
         // },
-        proxy: "http://localhost/rentnow/",
+        proxy: "http://localhost/rentnow-vendor/",
         files: ["**/*.php"],
         injectChanges: true
     });
