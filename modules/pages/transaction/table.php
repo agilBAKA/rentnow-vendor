@@ -36,9 +36,6 @@
 						<li>
 							<a href="" data-tooltip="view"><i class="zmdi zmdi-eye"></i></a>
 						</li>
-						<li>
-							<a class="delete" data-tooltip="Delete"><i class="zmdi zmdi-delete"></i></a>
-						</li>
 					</ul>
 				</div>
 			</td>
@@ -69,9 +66,6 @@
 						<li>
 							<a href="" data-tooltip="view"><i class="zmdi zmdi-eye"></i></a>
 						</li>
-						<li>
-							<a class="delete" data-tooltip="Delete"><i class="zmdi zmdi-delete"></i></a>
-						</li>
 					</ul>
 				</div>
 			</td>
@@ -101,9 +95,6 @@
 					<ul>
 						<li>
 							<a href="" data-tooltip="view"><i class="zmdi zmdi-eye"></i></a>
-						</li>
-						<li>
-							<a class="delete" data-tooltip="Delete"><i class="zmdi zmdi-delete"></i></a>
 						</li>
 					</ul>
 				</div>
@@ -135,9 +126,6 @@
 						<li>
 							<a href="" data-tooltip="view"><i class="zmdi zmdi-eye"></i></a>
 						</li>
-						<li>
-							<a class="delete" data-tooltip="Delete"><i class="zmdi zmdi-delete"></i></a>
-						</li>
 					</ul>
 				</div>
 			</td>
@@ -167,9 +155,6 @@
 					<ul>
 						<li>
 							<a href="" data-tooltip="view"><i class="zmdi zmdi-eye"></i></a>
-						</li>
-						<li>
-							<a class="delete" data-tooltip="Delete"><i class="zmdi zmdi-delete"></i></a>
 						</li>
 					</ul>
 				</div>
@@ -201,9 +186,6 @@
 						<li>
 							<a href="" data-tooltip="view"><i class="zmdi zmdi-eye"></i></a>
 						</li>
-						<li>
-							<a class="delete" data-tooltip="Delete"><i class="zmdi zmdi-delete"></i></a>
-						</li>
 					</ul>
 				</div>
 			</td>
@@ -211,26 +193,31 @@
 		</table>
 	</div>
 
-	<div class="pagination">
-		<ul>
-			<li class="active">
-				<span>1</span>
-			</li>
-			<li>
-				<a href="">2</a>
-			</li>
-			<li>
-				<a href="">3</a>
-			</li>
-			<li>
-				<a href="">4</a>
-			</li>
-			<li>
-				<a href="">5</a>
-			</li>
-		</ul>
+	<div class="footer-table">
+
+		<div class="pagination">
+			<ul>
+				<li class="active">
+					<span>1</span>
+				</li>
+				<li>
+					<a href="">2</a>
+				</li>
+				<li>
+					<a href="">3</a>
+				</li>
+				<li>
+					<a href="">4</a>
+				</li>
+				<li>
+					<a href="">5</a>
+				</li>
+			</ul>
+		</div>
+
+		<span class="on-right">Menampilkan 6 dari 200 data transaksi</span>
+	
 	</div>
 
-	<span class="on-right">Menampilkan 6 dari 200 data transaksi</span>
 
 </div>

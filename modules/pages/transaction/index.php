@@ -29,7 +29,8 @@
                     </div>
                     <div class="header-table_action">
                         <button class="btn-white btn-for-filter">
-                            <i class="zmdi zmdi-filter-list"></i> Filter
+                            <i class="zmdi zmdi-filter-list"></i>
+                            <span>Filter</span>
                         </button>
                     </div>
                     <div class="clearfix"></div>
