@@ -232,7 +232,7 @@ nav.navigation {
 	}
 
 
- 	@include respond-to(handhelds) {
+ 	@include respond-to(view-mobile) {
  		padding: 10px 0px;
  		background: $color-soft;
  		a.logo {
@@ -301,7 +301,6 @@ nav.navigation {
  	}
 
 }
-
 
 .menu-burger {
   width:30px;

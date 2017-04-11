@@ -6,6 +6,11 @@ h1.title {
 	font-size: 30px;
 	color: $color-dark;
 	font-weight: 100;
+
+	@include respond-to(handhelds) {
+		font-size: 1.5em;
+		display: none;
+	}
 }
 
 .font-big-light {

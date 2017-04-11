@@ -34,9 +34,9 @@
                         <label>Status produk</label>
                         <select>
                             <option value="">Tampilkan Semua</option>
-                            <option value="">tersedia</option>
-                            <option value="">draft</option>
-                            <option value="">tersewa</option>
+                            <option value="">Tersedia</option>
+                            <option value="">Draft</option>
+                            <option value="">Tersewa</option>
                         </select>
                     </div>
                 </div>

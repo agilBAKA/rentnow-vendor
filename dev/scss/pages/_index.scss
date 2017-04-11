@@ -35,6 +35,17 @@
 			}
 		}
 	}
+
+	@include respond-to(view-mobile) {
+		text-align: center;
+		.info-revenue {
+			margin-top: 15px;
+			overflow: hidden;
+			border-top: 1px solid darken($color-primary,5%);
+			text-align:  center;
+			
+		}
+	}
 }
 
 // boxed-property 
@@ -87,6 +98,10 @@
 
 		}
 	}
+
+	@include respond-to(view-mobile) {
+
+	}
 }
 
 .box-graph {
@@ -99,6 +114,13 @@
 
 	.content-graph {
 		width: 100%;
+	}
+
+	@include respond-to(view-mobile) {
+		overflow: auto;
+		.content-graph {
+			min-width: 800px;
+		}
 	}
 }
 

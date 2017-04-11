@@ -39,9 +39,6 @@
 							<li>
 								<a href="" data-tooltip="view"><i class="zmdi zmdi-eye"></i></a>
 							</li>
-							<li>
-								<a class="delete" data-tooltip="Delete"><i class="zmdi zmdi-delete"></i></a>
-							</li>
 						</ul>
 					</div>
 				</td>
@@ -72,9 +69,6 @@
 							<li>
 								<a href="" data-tooltip="view"><i class="zmdi zmdi-eye"></i></a>
 							</li>
-							<li>
-								<a class="delete" data-tooltip="Delete"><i class="zmdi zmdi-delete"></i></a>
-							</li>
 						</ul>
 					</div>
 				</td>
@@ -104,9 +98,6 @@
 						<ul>
 							<li>
 								<a href="" data-tooltip="view"><i class="zmdi zmdi-eye"></i></a>
-							</li>
-							<li>
-								<a class="delete" data-tooltip="Delete"><i class="zmdi zmdi-delete"></i></a>
 							</li>
 						</ul>
 					</div>
@@ -138,9 +129,6 @@
 							<li>
 								<a href="" data-tooltip="view"><i class="zmdi zmdi-eye"></i></a>
 							</li>
-							<li>
-								<a class="delete" data-tooltip="Delete"><i class="zmdi zmdi-delete"></i></a>
-							</li>
 						</ul>
 					</div>
 				</td>
@@ -170,9 +158,6 @@
 						<ul>
 							<li>
 								<a href="" data-tooltip="view"><i class="zmdi zmdi-eye"></i></a>
-							</li>
-							<li>
-								<a class="delete" data-tooltip="Delete"><i class="zmdi zmdi-delete"></i></a>
 							</li>
 						</ul>
 					</div>

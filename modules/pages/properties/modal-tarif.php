@@ -13,23 +13,23 @@
 			                <div class="box-radio">
 			                    <div class="style-radio">
 			                        <input id="perjam" name="tarif" type="radio">
-			                        <label>perjam</label>
+			                        <label>Per jam</label>
 			                    </div>
 			                    <div class="style-radio">
 			                        <input id="harian" name="tarif" type="radio">
-			                        <label>Harian</label>
+			                        <label>Per hari</label>
 			                    </div>
 			                    <div class="style-radio">
 			                        <input id="mingguan" name="tarif" type="radio">
-			                        <label>Mingguan</label>
+			                        <label>Per minggu</label>
 			                    </div>
 			                    <div class="style-radio">
 			                        <input id="bulanan" name="tarif" type="radio">
-			                        <label>Bulanan</label>
+			                        <label>Per bulan</label>
 			                    </div>
 			                    <div class="style-radio">
 			                        <input id="tahunan" name="tarif" type="radio">
-			                        <label>Tahunan</label>
+			                        <label>Per tahun</label>
 			                    </div>
 
 			                </div>

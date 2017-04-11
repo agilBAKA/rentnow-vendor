@@ -21,6 +21,7 @@
                     <div class="field">
                         <label>Status</label>
                         <select>
+                            <option value="">Tampilkan Semua</option>
                             <option value="">Berhasil</option>
                             <option value="">Gagal</option>
                         </select>
@@ -33,7 +34,6 @@
                         <select>
                             <option value="">Tahunan</option>
                             <option value="" selected>Bulanan</option>
-                            <option value="">Withdraw</option>
                         </select>
                     </div>
                 </div>

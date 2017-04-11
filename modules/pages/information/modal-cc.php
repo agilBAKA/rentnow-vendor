@@ -7,7 +7,7 @@
 		 <div class="modal-body">
 		 	<form action="" class="default-form">
 			    <div class="row">
-			        <div class="col-md-7">
+			        <div class="col-md-12">
 			            <div class="field">
 			                <label> Nama kartu Kredit</label>
 			                <select name="" id="">
@@ -18,14 +18,14 @@
 			                </select>
 			            </div>
 			        </div>
-			        <div class="col-md-5">
+			        <!-- <div class="col-md-5">
 			            <div class="field">
 			                <label> Kode CVC</label>
 			                <input type="number" placeholder="Masukan kode">
 			            </div>
-			        </div>
+			        </div> -->
 			        <div class="clearfix"></div>
-			        <div class="col-md-7">
+			        <div class="col-md-8">
 			            <div class="field">
 			                <label> Masa Aktif</label>
 			                <div class="row">
@@ -62,7 +62,7 @@
 			                </div>
 			            </div>
 			        </div>
-			        <div class="col-md-5">
+			        <div class="col-md-4">
 			            <div class="field">
  			                <div class="box-check"> 
 			                    <div class="style-check">

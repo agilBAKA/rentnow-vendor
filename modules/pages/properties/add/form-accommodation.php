@@ -7,9 +7,9 @@
                 <label> Jenis tempat yang ditawarkan</label>
                 <select name="" id="">
                     <option value="" disabled selected>Pilih jenis tempatmu</option>
-                    <option value="">Seluruh tempat</option>
+                    <option value="">Seluruh Tempat</option>
                     <option value="">Kamar Pribadi</option>
-                    <option value="">Kamar berbagi</option>
+                    <option value="">Kamar Bersama</option>
                 </select>
             </div>
         </div>
@@ -45,7 +45,7 @@
 
         <div class="col-md-3">
             <div class="field field-money">
-                <label>Tarif perjam</label>
+                <label>Tarif per hari</label>
                 <a class="link edit-tarif">Ubah jenis Tarif</a>
                 <select name="" id="" class="select-money">
                     <option value="" disabled selected>IDR</option>
@@ -62,18 +62,6 @@
     <hr>
 
     <div class="row">
-        <div class="col-md-3">
-            <div class="field">
-                <label> Pilih jenis kamar</label>
-                <select name="" id="">
-                    <option value="" disabled selected>pilih kamar</option>
-                    <option value="">Opsi 1</option>
-                    <option value="">Opsi 2</option>
-                    <option value="">Opsi 3</option>
-                </select>
-            </div>
-        </div>
-
         <div class="col-md-3">
             <div class="field">
                 <label>Total kamar</label>
@@ -130,7 +118,7 @@
     <hr>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
               <div class="field">
                 <label>Fasilitas</label>
                 <div class="row">
@@ -138,27 +126,27 @@
                         <div class="box-check">
                             <div class="style-check">
                                 <input id="opsi_1" name="fasilitas" type="checkbox">
-                                <label>Opsi 1</label>
+                                <label>Wifi</label>
                             </div>
                             <div class="style-check">
                                 <input id="opsi_2" name="fasilitas" type="checkbox">
-                                <label>Opsi 2</label>
+                                <label>perlengkapan mandi</label>
                             </div>
                             <div class="style-check">
                                 <input id="opsi_3" name="fasilitas" type="checkbox">
-                                <label>Opsi 3</label>
+                                <label>AC</label>
                             </div>
                             <div class="style-check">
                                 <input id="opsi_4" name="fasilitas" type="checkbox">
-                                <label>Opsi 4</label>
+                                <label>Sarapan</label>
                             </div>
                             <div class="style-check">
                                 <input id="opsi_5" name="fasilitas" type="checkbox">
-                                <label>Opsi 5</label>
+                                <label>Penghangat ruangan</label>
                             </div>
                             <div class="style-check">
                                 <input id="opsi_6" name="fasilitas" type="checkbox">
-                                <label>Opsi 6</label>
+                                <label>Setrika</label>
                             </div>
                             
                         </div>
@@ -167,27 +155,27 @@
                         <div class="box-check">
                             <div class="style-check">
                                 <input id="opsi_7" name="fasilitas" type="checkbox">
-                                <label>Opsi 7</label>
+                                <label>Closet</label>
                             </div>
                             <div class="style-check">
                                 <input id="opsi_8" name="fasilitas" type="checkbox">
-                                <label>Opsi 8</label>
+                                <label>Kopi/Teh</label>
                             </div>
                             <div class="style-check">
                                 <input id="opsi_9" name="fasilitas" type="checkbox">
-                                <label>Opsi 9</label>
+                                <label>TV</label>
                             </div>
                             <div class="style-check">
                                 <input id="opsi_10" name="fasilitas" type="checkbox">
-                                <label>Opsi 10</label>
+                                <label><em>Workspace</em></label>
                             </div>
                             <div class="style-check">
                                 <input id="opsi_11" name="fasilitas" type="checkbox">
-                                <label>Opsi 11</label>
+                                <label><em>Fireplace</em></label>
                             </div>
                             <div class="style-check">
                                 <input id="opsi_12" name="fasilitas" type="checkbox">
-                                <label>Opsi 12</label>
+                                <label><em>Hair Dryer</em></label>
                             </div>
                             
                         </div>
@@ -195,140 +183,62 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
               <div class="field">
-                <label>Fasilitas</label>
+                <label>Fasilitas Keamanan</label>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="box-check">
                             <div class="style-check">
-                                <input id="opsi_1" name="fasilitas" type="checkbox">
-                                <label>Opsi 1</label>
+                                <input id="opsi_1" name="fasilitas_keamanan" type="checkbox">
+                                <label>Penditeksi Asap</label>
                             </div>
                             <div class="style-check">
-                                <input id="opsi_2" name="fasilitas" type="checkbox">
-                                <label>Opsi 2</label>
+                                <input id="opsi_2" name="fasilitas_keamanan" type="checkbox">
+                                <label>P3K</label>
                             </div>
-                            <div class="style-check">
-                                <input id="opsi_3" name="fasilitas" type="checkbox">
-                                <label>Opsi 3</label>
-                            </div>
-                            <div class="style-check">
-                                <input id="opsi_4" name="fasilitas" type="checkbox">
-                                <label>Opsi 4</label>
-                            </div>
-                            <div class="style-check">
-                                <input id="opsi_5" name="fasilitas" type="checkbox">
-                                <label>Opsi 5</label>
-                            </div>
-                            <div class="style-check">
-                                <input id="opsi_6" name="fasilitas" type="checkbox">
-                                <label>Opsi 6</label>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="box-check">
-                            <div class="style-check">
-                                <input id="opsi_7" name="fasilitas" type="checkbox">
-                                <label>Opsi 7</label>
-                            </div>
-                            <div class="style-check">
-                                <input id="opsi_8" name="fasilitas" type="checkbox">
-                                <label>Opsi 8</label>
-                            </div>
-                            <div class="style-check">
-                                <input id="opsi_9" name="fasilitas" type="checkbox">
-                                <label>Opsi 9</label>
-                            </div>
-                            <div class="style-check">
-                                <input id="opsi_10" name="fasilitas" type="checkbox">
-                                <label>Opsi 10</label>
-                            </div>
-                            <div class="style-check">
-                                <input id="opsi_11" name="fasilitas" type="checkbox">
-                                <label>Opsi 11</label>
-                            </div>
-                            <div class="style-check">
-                                <input id="opsi_12" name="fasilitas" type="checkbox">
-                                <label>Opsi 12</label>
-                            </div>
-                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
               <div class="field">
-                <label>Fasilitas</label>
+                <label>Ruangan untuk Penyewa</label>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="box-check">
                             <div class="style-check">
                                 <input id="opsi_1" name="fasilitas" type="checkbox">
-                                <label>Opsi 1</label>
+                                <label>Dapur</label>
                             </div>
                             <div class="style-check">
                                 <input id="opsi_2" name="fasilitas" type="checkbox">
-                                <label>Opsi 2</label>
-                            </div>
-                            <div class="style-check">
-                                <input id="opsi_3" name="fasilitas" type="checkbox">
-                                <label>Opsi 3</label>
+                                <label>Laundry</label>
                             </div>
                             <div class="style-check">
                                 <input id="opsi_4" name="fasilitas" type="checkbox">
-                                <label>Opsi 4</label>
+                                <label>Kolam Renang</label>
                             </div>
                             <div class="style-check">
                                 <input id="opsi_5" name="fasilitas" type="checkbox">
-                                <label>Opsi 5</label>
+                                <label><em>Hot Tub</em></label>
                             </div>
                             <div class="style-check">
                                 <input id="opsi_6" name="fasilitas" type="checkbox">
-                                <label>Opsi 6</label>
+                                <label>Tempat Fitness</label>
                             </div>
                             
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="box-check">
-                            <div class="style-check">
-                                <input id="opsi_7" name="fasilitas" type="checkbox">
-                                <label>Opsi 7</label>
-                            </div>
-                            <div class="style-check">
-                                <input id="opsi_8" name="fasilitas" type="checkbox">
-                                <label>Opsi 8</label>
-                            </div>
-                            <div class="style-check">
-                                <input id="opsi_9" name="fasilitas" type="checkbox">
-                                <label>Opsi 9</label>
-                            </div>
-                            <div class="style-check">
-                                <input id="opsi_10" name="fasilitas" type="checkbox">
-                                <label>Opsi 10</label>
-                            </div>
-                            <div class="style-check">
-                                <input id="opsi_11" name="fasilitas" type="checkbox">
-                                <label>Opsi 11</label>
-                            </div>
-                            <div class="style-check">
-                                <input id="opsi_12" name="fasilitas" type="checkbox">
-                                <label>Opsi 12</label>
-                            </div>
-                            
-                        </div>
-                    </div>
+                     
                 </div>
             </div>
         </div>
         <div class="col-md-12">
             <div class="field">
                 <label> Keterangan</label>
-                <textarea name="" id="" cols="30" rows="4" placeholder="tulis keterangan singkat menngenai kendaraan disini..."></textarea>
+                <textarea name="" id="" cols="30" rows="4" placeholder="Tulis keterangan singkat mengenai Akomodasi Anda di sini"></textarea>
             </div>
         </div>
     </div>
@@ -348,8 +258,8 @@
     </div>
 
 	<div class="action-form">
-        <button class="btn-secondary">Save as draft</button>
-        <button class="btn-primary">Save &amp; publish</button>
+        <button class="btn-secondary">Simpan sebagai Draft</button>
+        <button class="btn-primary">Simpan &amp; Terbitkan</button>
     </div>
 
 </form>

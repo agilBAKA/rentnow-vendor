@@ -5,7 +5,7 @@
         <tr class="row-head">
             <th>Nama Kartu Kredit</th>
             <th>Nomor </th>
-            <th>Kode CVC</th>
+            <!-- <th>Kode CVC</th> -->
             <th>Masa Aktif</th>
             <th>Status</th>
             <th>Tindakan</th>
@@ -18,9 +18,9 @@
             <td>
                 <strong>95867684743849</strong>
             </td>
-            <td>
+           <!--  <td>
                 <strong>345</strong>
-            </td>
+            </td> -->
 
             <td>
                 <strong>Maret 2020</strong>
@@ -50,9 +50,9 @@
             <td>
                 <strong>95867684743849</strong>
             </td>
-            <td>
+           <!--  <td>
                 <strong>432</strong>
-            </td>
+            </td> -->
 
             <td>
                 <strong>Maret 2019</strong>

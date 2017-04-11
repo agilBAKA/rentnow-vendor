@@ -19,21 +19,10 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="field">
-                        <label>Kategori </label>
-                        <select>
-                            <option value="">Tampilkan Semua</option>
-                            <option value="">Top Up</option>
-                            <option value="">Withdraw</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="field">
-                        <label>Waktu </label>
+                        <label>Waktu</label>
                         <select>
                             <option value="">Tahunan</option>
                             <option value="" selected>Bulanan</option>
-                            <option value="">Withdraw</option>
                         </select>
                     </div>
                 </div>
@@ -54,6 +43,16 @@
                             <option value="">Oktober</option>
                             <option value="">November</option>
                             <option value="">Desember</option>
+                        </select>
+                    </div>
+                </div>
+                 <div class="col-md-3">
+                    <div class="field">
+                        <label>Status</label>
+                        <select>
+                            <option value="">Tampilkan Semua</option>
+                            <option value="">Berhasil</option>
+                            <option value="">Gagal</option>
                         </select>
                     </div>
                 </div>

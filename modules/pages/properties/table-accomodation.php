@@ -36,9 +36,9 @@
                         <label>Kategori Produk</label>
                         <select>
                             <option value="">Tampilkan Semua</option>
-                            <option value="">Ruangan Pribadi</option>
-                            <option value="">Ruangan Berbagi</option>
-                            <option value="">Ruangan <em>Commanual</em></option>
+                            <option value="">Seluruh Tempat</option>
+                            <option value="">Kamar Pribadi</option>
+                            <option value="">Kamar Bersama</option>
                         </select>
                     </div>
                 </div>
@@ -47,9 +47,9 @@
                         <label>Status produk</label>
                         <select>
                             <option value="">Tampilkan Semua</option>
-                            <option value="">tersedia</option>
-                            <option value="">draft</option>
-                            <option value="">tersewa</option>
+                            <option value="">Tersedia</option>
+                            <option value="">Draft</option>
+                            <option value="">Tersewa</option>
                         </select>
                     </div>
                 </div>

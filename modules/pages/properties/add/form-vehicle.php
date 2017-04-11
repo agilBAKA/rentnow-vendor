@@ -6,7 +6,7 @@
             <div class="field">
                 <label> Jenis kendaraan</label>
                 <select name="" id="">
-                    <option value="" disabled selected>Pilih kendaraan Anda</option>
+                    <option value="" disabled selected>Pilih Kendaraan Anda</option>
                     <option value="">Option 1</option>
                     <option value="">Option 2</option>
                     <option value="">Option 3</option>
@@ -18,7 +18,7 @@
             <div class="field">
                 <label>Merk</label>
                 <select name="" id="">
-                    <option value="" disabled selected>pilih Merk kendaraan</option>
+                    <option value="" disabled selected>Pilih Merk kendaraan</option>
                     <option value="">Option 1</option>
                     <option value="">Option 2</option>
                     <option value="">Option 3</option>
@@ -40,7 +40,7 @@
 
         <div class="col-md-3">
             <div class="field field-money">
-                <label>Tarif perjam</label>
+                <label>Tarif per jam</label>
                 <a class="link edit-tarif">Ubah jenis Tarif</a>
                 <select name="" id="" class="select-money">
                     <option value="" disabled selected>IDR</option>
@@ -55,13 +55,13 @@
         <div class="col-md-6">
             <div class="field">
                 <label> Keterangan</label>
-                <textarea name="" id="" cols="30" rows="4" placeholder="tulis keterangan singkat menngenai kendaraan disini..."></textarea>
+                <textarea name="" id="" cols="30" rows="4" placeholder="Tulis keterangan singkat mengenai kendaraan Anda di sini"></textarea>
             </div>
         </div>
 
         <div class="col-md-3">
             <div class="field">
-                <label>Warna kendaraan</label>
+                <label>Warna Kendaraan</label>
                 <input type="text" placeholder="Tulis warna sesuai STNK">
             </div>
         </div>
@@ -116,8 +116,8 @@
     </div>
 
 	<div class="action-form">
-        <button class="btn-secondary">Save as draft</button>
-        <button class="btn-primary">Save &amp; publish</button>
+        <button class="btn-secondary">Simpan sebagai Draft</button>
+        <button class="btn-primary">Simpan &amp; Terbitkan</button>
     </div>
 
 </form>

@@ -20,4 +20,22 @@ footer {
  			}
  		}
  	}
+
+ 	@include respond-to(view-mobile) {
+ 		text-align:  center;
+ 		line-height: 18px;
+ 		ul {
+ 			float: inherit;
+ 			padding-top: 20px;
+ 			li {
+
+ 				a {
+ 					border: 1px solid #ddd;
+ 					display: block;
+ 					margin: 5px;
+ 					border-radius: 4px;
+ 				}
+ 			}
+ 		}
+ 	}
 }

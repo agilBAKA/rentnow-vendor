@@ -12,18 +12,23 @@ body {
 		overflow: hidden;
 	}
 
-	@include respond-to(handhelds) {
+	@include respond-to(view-mobile) {
 		padding-top: 62px !important;
 		.section {
 			padding: 30px 0px;
 		}
-		.section-pages {
+		.section {
 			h1.title-page {
 				margin-bottom: 30px;
 				font-size: 32px; 
 			}
  		}
+
+ 		table {
+ 			display: none;
+ 		}
 	}
+
 }
 
 a {
@@ -176,4 +181,8 @@ hr {
 	margin-top: 15px;
 	border:none;
 	border-top: 1px solid #ddd;
+}
+
+em {
+	font-style: italic !important;
 }
