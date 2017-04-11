@@ -44,6 +44,12 @@
 	padding: 10px;
 	vertical-align: top;
 	overflow: hidden;
+
+	@include respond-to(handhelds) {
+		width: 50%;
+		height: 80px;
+		line-height: 55px;
+	}
 }
 /* input-inner */
 .fileuploader-theme-thumbnails .fileuploader-thumbnails-input-inner {

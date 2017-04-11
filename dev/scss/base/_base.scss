@@ -14,14 +14,32 @@ body {
 
 	@include respond-to(view-mobile) {
 		padding-top: 62px !important;
-		.section {
-			padding: 30px 0px;
+	 	header.header-page {
+			padding: 15px 0px;
+			overflow: hidden;	
+
+			a.btn-cancel {
+				width: 35px;
+				height: 35px;
+				padding: 0px;
+				min-width: 0px;
+				border-radius: 100%;
+				text-align: center;
+				margin-top: 10px;
+				position: relative;
+				top: -20px;
+				i {
+					display: block;
+					font-size: 21px;
+					line-height: 35px;
+				}
+				span {
+					display: none;
+				}
+			}
 		}
 		.section {
-			h1.title-page {
-				margin-bottom: 30px;
-				font-size: 32px; 
-			}
+			padding: 30px 0px;
  		}
 
  		table {

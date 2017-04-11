@@ -8,8 +8,8 @@ h1.title {
 	font-weight: 100;
 
 	@include respond-to(handhelds) {
-		font-size: 1.5em;
-		display: none;
+		font-size: 18px;
+		font-weight: 400;
 	}
 }
 

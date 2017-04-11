@@ -15,7 +15,10 @@
                     <!-- HEADER PAGE -->
                     <header class="header-page">
                         <h1 class="title">Tambah Akomodasi</h1>
-                        <a href="properties.php" class="btn-grey"> Batalkan</a>
+                        <a href="properties.php" class="btn-grey btn-cancel">
+                          <i class="zmdi zmdi-close"></i>
+                          <span>Batalkan</span>
+                        </a>
                     </header>
                     <!-- END HEADER PAGE -->
 
