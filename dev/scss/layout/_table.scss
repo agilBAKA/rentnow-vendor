@@ -159,12 +159,53 @@ td.column-status, {
 
 // 
 .header-table {
+	width: 100%;
 	overflow: hidden;
 	padding-bottom: 15px;
 	.header-table_action {
 		float: right;
 		a {
 			margin-left: 15px;
+		}
+	}
+
+	@include respond-to(handhelds) {
+		.header-table_action {
+			float: inherit;
+			width: 100%;
+		}
+		.btn-for-filter {
+			min-width: auto;
+			width: 40px;
+			height: 40px;
+			text-align: center;
+			padding:0px;
+ 			span {
+ 				display: none;
+ 			}
+
+ 			i {
+				line-height: 40px; 
+ 				font-size: 24px;
+ 			}
+ 		}
+
+ 		.btn-primary {
+ 			float: right;
+ 		}
+	}
+
+}
+
+.footer-table {
+	@include respond-to(handhelds) {
+		text-align: center;
+		.on-right {
+			float: inherit;
+			display: block;
+			margin-top: 10px;
+			text-align: center;
+			font-size: 11px;
 		}
 	}	
 }

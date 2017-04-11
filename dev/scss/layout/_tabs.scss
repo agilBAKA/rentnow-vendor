@@ -63,16 +63,26 @@ ul.tabs li {
 .tab_drawer_heading { display: none; }
 
 @media screen and (max-width: 480px) {
-	.tabs {
-		display: none;
+	ul.tabs {
+		li {
+			padding: 0px 8px;
+			font-size: 9px;
+		}
+	}
+
+	.tab_content {
+		border: 1px solid #dddddd;
+		border-top: none;
+		padding:10px;
+		overflow:auto;
 	}
 	.tab_drawer_heading {
-		background-color: #ccc;
-		color: #fff;
-		border-top: 1px solid #333;
+		display: none;
+		background-color: #fff;
+		color: $color-primary;
+		border: 1px solid #dddddd;
 		margin: 0;
-		padding: 5px 20px;
-		display: block;
+		padding: 20px;
 		cursor: pointer;
 		-webkit-touch-callout: none;
 		-webkit-user-select: none;

@@ -42,9 +42,10 @@ body {
 			padding: 30px 0px;
  		}
 
- 		table {
- 			display: none;
+ 		.box-table {
+ 			overflow: auto;
  		}
+
 	}
 
 }

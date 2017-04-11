@@ -400,6 +400,14 @@ form.default-form {
 		top: 10px;
 		font-size: 21px;
 	}
+
+	@include respond-to(handhelds) {
+		display: block;
+		margin-bottom: 10px;
+		input {
+			width: 100%;
+		}
+	}
 }
 
 .box-filter {

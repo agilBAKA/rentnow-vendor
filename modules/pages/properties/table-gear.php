@@ -6,7 +6,8 @@
     </div>
     <div class="header-table_action">
         <button class="btn-white btn-for-filter">
-            <i class="zmdi zmdi-filter-list"></i> Filter
+            <i class="zmdi zmdi-filter-list"></i>
+            <span>Filter</span>
         </button>
         <a href="add-gear.php" class="btn-primary">
         	Tambah Perlengkapan
@@ -71,7 +72,7 @@
 			</td>
 			<td>
 				<strong>IDR 100.000</strong>
-				<span class="small-font">Harga harian</span>
+				<span class="small-font">Harga per hari</span>
 			</td>
 			<td>
 				<label class="label-black">tersewa</label>
@@ -109,7 +110,7 @@
 			</td>
 			<td>
 				<strong>IDR 100.000</strong>
-				<span class="small-font">Harga harian</span>
+				<span class="small-font">Harga per hari</span>
 			</td>
 			<td>
 				<label class="label-black">tersewa</label>
@@ -147,7 +148,7 @@
 			</td>
 			<td>
 				<strong>IDR 100.000</strong>
-				<span class="small-font">Harga harian</span>
+				<span class="small-font">Harga per hari</span>
 			</td>
 			<td>
 				<label class="label-black">tersewa</label>
@@ -185,7 +186,7 @@
 			</td>
 			<td>
 				<strong>IDR 100.000</strong>
-				<span class="small-font">Harga harian</span>
+				<span class="small-font">Harga per hari</span>
 			</td>
 			<td>
 				<label class="label-blue">tersedia</label>
@@ -223,7 +224,7 @@
 			</td>
 			<td>
 				<strong>IDR 100.000</strong>
-				<span class="small-font">Harga harian</span>
+				<span class="small-font">Harga per hari</span>
 			</td>
 			<td>
 				<label class="label-green">draft</label>
@@ -261,7 +262,7 @@
 			</td>
 			<td>
 				<strong>IDR 100.000</strong>
-				<span class="small-font">Harga harian</span>
+				<span class="small-font">Harga per hari</span>
 			</td>
 			<td>
 				<label class="label-green">draft</label>
@@ -284,25 +285,26 @@
 		</tr>
 	</table>
 </div>
+<div class="footer-table">
+	<div class="pagination">
+		<ul>
+			<li class="active">
+				<span>1</span>
+			</li>
+			<li>
+				<a href="">2</a>
+			</li>
+			<li>
+				<a href="">3</a>
+			</li>
+			<li>
+				<a href="">4</a>
+			</li>
+			<li>
+				<a href="">5</a>
+			</li>
+		</ul>
+	</div>
 
-<div class="pagination">
-	<ul>
-		<li class="active">
-			<span>1</span>
-		</li>
-		<li>
-			<a href="">2</a>
-		</li>
-		<li>
-			<a href="">3</a>
-		</li>
-		<li>
-			<a href="">4</a>
-		</li>
-		<li>
-			<a href="">5</a>
-		</li>
-	</ul>
+	<span class="on-right">Menampilkan 6 dari 200 data transaksi</span>	
 </div>
-
-<span class="on-right">Menampilkan 6 dari 200 data transaksi</span>
