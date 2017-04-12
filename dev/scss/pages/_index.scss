@@ -49,7 +49,6 @@
 }
 
 // boxed-property 
-
 .boxed-property {
 	width: 100%;
 	min-height: 155px;
@@ -100,7 +99,33 @@
 	}
 
 	@include respond-to(view-mobile) {
+		height: auto;
+		overflow: hidden;
+		ul {
+			li.list-properties {
+				width: 100%;
+				padding-bottom: 20px;
+				border-bottom:1px solid #ddd;
+				overflow: hidden;
+				text-align: left;
+				.product-name {
+					font-size: 14px;
+					margin-top: 20px;
+					display: block;
+					float: left;
+					width: 40%;
+				}
 
+				.box-info-product {
+					width: 50%;
+					float: right;
+				}
+
+				&:last-child {
+					padding-bottom: 0px;
+				}
+			}
+		}
 	}
 }
 
